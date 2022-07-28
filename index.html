@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFolio</title>
+    <!-- Google font Links -->
+
+    <!-- Start Css Style & Bootstrap  & Font Awesome-->
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Font -->
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <!-- End Css Style & Bootstrap -->
+    <!-- Start JS Scirpt Bootstrap & Font Awesome -->
+    <Script src="JS/bootstrap.bundle.min.js"></Script>
+    <Script src="JS/typed.js"></Script>
+    <!-- Font -->
+    <Script src="JS/all.min.js"></Script>
+    <!-- End JS Scirpt Bootstrap & Font Awesome -->
+</head>
+<body>
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-modify p-0 d-flex justify-content-center align-items-center">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">DevFolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item overflow-hidden">
+                        <a class="nav-link active overflow-hidden" aria-current="page" href="#home">home</a>
+                    </li>
+                    <li class="nav-item overflow-hidden">
+                        <a class="nav-link active overflow-hidden" aria-current="page" href="#about">about</a>
+                    </li>
+                    <li class="nav-item overflow-hidden">
+                        <a class="nav-link active overflow-hidden" aria-current="page" href="#services">services</a>
+                    </li>
+                    <li class="nav-item overflow-hidden">
+                        <a class="nav-link active overflow-hidden" aria-current="page" href="#work">work</a>
+                    </li>
+                    <li class="nav-item overflow-hidden">
+                        <a class="nav-link active overflow-hidden" aria-current="page" href="#blog">blog</a>
+                    </li>
+                    <!--Drop Dwon-->
+                    <div class="dropdown position-relative">
+                        <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Drop down
+                        </button>
+                        <ul class="list-links list-unstyled bg-white text-start p-2 position-absolute">
+                            <li><a class="dropdown-item" href="#">Drop down 1</a></li>
+                            <li>
+                                <div class="deep-drop-down">
+                                    <a class="btn btn dropdown-toggle position-relative" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Deep Drop down
+                                    </a>
+                                
+                                    <ul class="list-unstyled  position-absolute" aria-labelledby="dropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Deep Drop down 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Deep Drop down 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Deep Drop down 3</a></li>
+                                        <li><a class="dropdown-item" href="#">Deep Drop down 4</a></li>
+                                        <li><a class="dropdown-item" href="#">Deep Drop down 5</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Drop down 2</a></li>
+                            <li><a class="dropdown-item" href="#">Drop down 3</a></li>
+                            <li><a class="dropdown-item" href="#">Drop down 4</a></li>
+                        </ul>
+                    </div>
+                    <!--End Drop Dwon  -->
+                    <li class="nav-item overflow-hidden">
+                        <a class="nav-link active overflow-hidden" aria-current="page" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End navbar -->
+    <!-- Start Home Section -->
+    <header class="home-section" id="home">
+        <div class="home-blur d-flex justify-content-center align-items-center">
+            <div class="home-content text-center text-white">
+                <h1>I am Morgan Freeman</h1>
+                <p><span class="typing"></span></p>
+            </div>
+        </div>
+    </header>
+    <!-- End Home Section -->
+    <!-- Start About Section -->
+    <section class="about-section " id="about">
+        <div class="container mt-5 ">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="shadow p-5 bg-white">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="image-about-section mb-4">
+                                            <img src="Images/Testimonial/testimonial-2.jpg" alt="photo" class="img-fluid rounded">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-sm-6">
+                                        <div class="about-content ">
+                                            <p>
+                                                <span class="title">Name:</span>
+                                                <span>Morgan Freeman</span>
+                                            </p>
+                                            <p>
+                                                <span class="title">profile:</span>
+                                                <span>full stack developer</span>
+                                            </p>
+                                            <p>
+                                                <span class="title">Email:</span>
+                                                <span>contact@example.com</span>
+                                            </p>
+                                            <p>
+                                                <span class="title">Phone:</span>
+                                                <span>(617) 557-0089</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill pt-4 pb-4 pe-4">
+                                    <p class="mb-3">skill</p>
+                                    <div class="rate">
+                                        <p class="rate-p">html 85%</p>
+                                        <div class="rate-85 rate-body mb-2">
+                                            <div class="rate-value"></div>
+                                        </div>
+                                        <p class="rate-p">css3 75%</p>
+                                        <div class="rate-75 rate-body mb-2">
+                                            <div class="rate-value"></div>
+                                        </div>
+                                        <p class="rate-p">php 50%</p>
+                                        <div class="rate-50 rate-body mb-2">
+                                            <div class="rate-value"></div>
+                                        </div>
+                                        <p class="rate-p">javascript 90%</p>
+                                        <div class="rate-90 rate-body mb-2">
+                                            <div class="rate-value"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-information">
+                                    <div class="information-title ">
+                                        <h5 class="mb-5">About me</h5>
+                                    </div>
+                                    <p class="information-p">
+                                        Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et,
+                                        porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan
+                                        tincidunt.
+                                    </p>
+                                    <p class="information-p">
+                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat.
+                                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                                    </p>
+                                    <p class="information-p">
+                                        Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor
+                                        accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+    <!-- Start Services Section -->
+    <section class="services-section" id="services">
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="header-section">
+                        <h3>Services</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center g-2 mt-5">
+                <div class="col-md-4 p-2 ">
+                    <div class="services-box bg-white p-3 shadow rounded-3">
+                        <div class="icon-box rounded-circle d-flex justify-content-center align-items-center">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="content-box">
+                            <h2>web design</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                                tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="services-box bg-white p-3 shadow rounded-3">
+                        <div class="icon-box rounded-circle d-flex justify-content-center align-items-center">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                                    <path
+                                        d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="content-box">
+                            <h2>web development</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                                provident vitae! Magni
+                                tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="services-box bg-white p-3 shadow rounded-3">
+                        <div class="icon-box rounded-circle d-flex justify-content-center align-items-center">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="content-box">
+                            <h2>Photography</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                                provident vitae! Magni
+                                tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="services-box bg-white p-3 shadow rounded-3">
+                        <div class="icon-box rounded-circle d-flex justify-content-center align-items-center">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-binoculars"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 2.5A1.5 1.5 0 0 1 4.5 1h1A1.5 1.5 0 0 1 7 2.5V5h2V2.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5v2.382a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V14.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 14.5v-3a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5v3A1.5 1.5 0 0 1 5.5 16h-3A1.5 1.5 0 0 1 1 14.5V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882V2.5zM4.5 2a.5.5 0 0 0-.5.5V3h2v-.5a.5.5 0 0 0-.5-.5h-1zM6 4H4v.882a1.5 1.5 0 0 1-.83 1.342l-.894.447A.5.5 0 0 0 2 7.118V13h4v-1.293l-.854-.853A.5.5 0 0 1 5 10.5v-1A1.5 1.5 0 0 1 6.5 8h3A1.5 1.5 0 0 1 11 9.5v1a.5.5 0 0 1-.146.354l-.854.853V13h4V7.118a.5.5 0 0 0-.276-.447l-.895-.447A1.5 1.5 0 0 1 12 4.882V4h-2v1.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V4zm4-1h2v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V3zm4 11h-4v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14zm-8 0H2v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="content-box">
+                            <h2>responsive design</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                                provident vitae! Magni
+                                tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2 ">
+                    <div class="services-box bg-white p-3 shadow rounded-3">
+                        <div class="icon-box rounded-circle d-flex justify-content-center align-items-center">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="content-box">
+                            <h2>graphic design</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                                provident vitae! Magni
+                                tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="services-box bg-white p-3 shadow rounded-3">
+                        <div class="icon-box rounded-circle d-flex justify-content-center align-items-center">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar4-week"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z" />
+                                    <path
+                                        d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="content-box">
+                            <h2>marketing services</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                                provident vitae! Magni
+                                tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Section -->
+    <!-- Start Counter Section -->
+    <section class="counter-section"> 
+        <div class="counter-blur d-flex justify-content-center align-items-center">
+            <div class="container-fluid">
+                <div class="row p-4">
+                    <div class="col-md-3 col-sm-12 text-center">
+                        <div class="counter-box mt-4">
+                            <div class="counter-icon rounded-circle">
+                                <span >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="counter-content">
+                                <p class="text-white m-0 mt-3">450</p>
+                                <span class="text-white  m-0 mt-2">works completed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-center">
+                        <div class="counter-box m-4">
+                            <div class="counter-icon rounded-circle">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-richtext"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M7.5 3.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm-.861 1.542 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047L11 4.75V7a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 7v-.5s1.54-1.274 1.639-1.208zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
+                                        <path
+                                            d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                                        <path
+                                            d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                                    </svg>
+                            </div>
+                            <div class="counter-content">
+                                <p class="text-white m-0 mt-3">25</p>
+                                <span class="text-white  m-0 mt-2">years of experience</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-center">
+                        <div class="counter-box m-4">
+                            <div class="counter-icon rounded-circle">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                                    </svg>
+                            </div>
+                            <div class="counter-content">
+                                <p class="text-white m-0 mt-3">550</p>
+                                <span class="text-white  m-0 mt-2">total clients</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-center">
+                        <div class="counter-box m-4">
+                            <div class="counter-icon rounded-circle">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z" />
+                                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="counter-content">
+                                <p class="text-white m-0 mt-3">48</p>
+                                <span class="text-white  m-0 mt-2">award won</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Counter Section -->
+    <!-- Start portfolio Section -->
+    <section class="portfolio-section" id="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header-section text-center">
+                        <h3>portfolio</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mt-4">
+                    <div class="work-box shadow overflow-hidden">
+                        <div class="box-img overflow-hidden">
+                            <img src="Images/Portfolio/work-1.jpg" alt="image" class="img-fluid">
+                        </div>
+                        <div class="work-content d-flex justify-content-between p-3">
+                            <div class="content-txt">
+                                <h2>Lorem impsum dolor</h2>
+                                <p><span>web design</span>/ 18 Sep. 2018</p>
+                            </div>
+                            <div class="work-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle"
+                                    viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="work-box shadow overflow-hidden">
+                        <div class="box-img overflow-hidden">
+                            <img src="Images/Portfolio/work-2.jpg" alt="image" class="img-fluid">
+                        </div>
+                        <div class="work-content d-flex justify-content-between p-3">
+                            <div class="content-txt">
+                                <h2>loreda cuno nere</h2>
+                                <p><span>web design</span>/ 18 Sep. 2018</p>
+                            </div>
+                            <div class="work-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="work-box shadow overflow-hidden">
+                        <div class="box-img overflow-hidden">
+                            <img src="Images/Portfolio/work-3.jpg" alt="image" class="img-fluid">
+                        </div>
+                        <div class="work-content d-flex justify-content-between p-3">
+                            <div class="content-txt">
+                                <h2>mavrito lana dere</h2>
+                                <p><span>web design</span>/ 18 Sep. 2018</p>
+                            </div>
+                            <div class="work-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="work-box shadow overflow-hidden">
+                        <div class="box-img overflow-hidden">
+                            <img src="Images/Portfolio/work-4.jpg" alt="image" class="img-fluid">
+                        </div>
+                        <div class="work-content d-flex justify-content-between p-3">
+                            <div class="content-txt">
+                                <h2>bindo laro cado</h2>
+                                <p><span>web design</span>/ 18 Sep. 2018</p>
+                            </div>
+                            <div class="work-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="work-box shadow overflow-hidden">
+                        <div class="box-img overflow-hidden">
+                            <img src="Images/Portfolio/work-5.jpg" alt="image" class="img-fluid">
+                        </div>
+                        <div class="work-content d-flex justify-content-between p-3">
+                            <div class="content-txt">
+                                <h2>studio lena mado</h2>
+                                <p><span>web design</span>/ 18 Sep. 2018</p>
+                            </div>
+                            <div class="work-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="work-box shadow overflow-hidden">
+                        <div class="box-img overflow-hidden">
+                            <img src="Images/Portfolio/work-6.jpg" alt="image" class="img-fluid">
+                        </div>
+                        <div class="work-content d-flex justify-content-between p-3">
+                            <div class="content-txt">
+                                <h2>studio big bang</h2>
+                                <p><span>web design</span>/ 18 Sep. 2017</p>
+                            </div>
+                            <div class="work-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+    <!-- start slider swiper Section -->
+    <section class="slider-swiper  position-relative">
+        <div class="slider-blur p-md-5">
+            <div class="container">
+                <div class="row p-3">
+                    <div class="slider col-sm-12 d-flex flex-wrap justify-content-center align-items-center text-center position-relative overflow-hidden">
+                        <div class="slider-moving-one  p-2 ">
+                            <img src="Images/Testimonial/testimonial-4.jpg" alt="image" class="img-fluid rounded-circle">
+                            <h4 class="text-white">marta socrate</h4>
+                            <p class="text-white">
+                                Curabitur arcu erat, accumsan id imperdiet et,Lorem, ipsum. porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                            </p>
+                        </div>
+                        <!-- --- -->
+                        <div class="slider-moving-two p-2 ">
+                            <img src="Images/Testimonial/testimonial-2.jpg" alt="image" class="img-fluid rounded-circle">
+                            <h4 class="text-white">xavi alonso</h4>
+                            <p class="text-white">
+                                Curabitur arcu erat, accumsan id imperdiet et,Lorem, ipsum. porttitor at sem. Lorem ipsum dolor sit amet, consectetur
+                                elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End slider swiper Section -->
+    <!-- Start Blog Section -->
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-md-12">
+                    <div class="header-section">
+                        <h3>blog</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blog-box shadow rounded-3 overflow-hidden">
+                        <div class="blog-image">
+                            <img src="Images/Blog/post-1.jpg" alt="image" class="img-fluid">
+                        </div>
+                        <div class="title">travel</div>
+                        <div class="blog-content mt-3 p-2 border-bottom">
+                            <a href="#">See more ideas about Travel</a>
+                            <p>
+                                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque
+                                nec, egestas non nisi.
+                            </p>
+                        </div>
+                        <div class="blog-footer d-flex justify-content-between p-2 align-items-center">
+                            <div class="footer-img">
+                                <img src="Images/Testimonial/testimonial-2.jpg" alt="image" class="img-fluid rounded-circle" style=" width: 40px;">
+                                <span>morgan freeman</span>
+                            </div>
+                            <div class="footer-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock"
+                                    viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                                </svg>
+                                10 min
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-box shadow rounded-3 overflow-hidden">
+                        <div class="blog-image">
+                            <img src="Images/Blog/post-2.jpg" alt="image" class="img-fluid">
+                        </div>
+                        <div class="title">web design</div>
+                        <div class="blog-content mt-3 p-2 border-bottom">
+                            <a href="#">See more ideas about Travel</a>
+                            <p>
+                                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a
+                                pellentesque
+                                nec, egestas non nisi.
+                            </p>
+                        </div>
+                        <div class="blog-footer d-flex justify-content-between p-2 align-items-center">
+                            <div class="footer-img">
+                                <img src="Images/Testimonial/testimonial-2.jpg" alt="image" class="img-fluid rounded-circle"
+                                    style=" width: 40px;">
+                                <span>morgan freeman</span>
+                            </div>
+                            <div class="footer-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock"
+                                    viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                                </svg>
+                                10 min
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-box shadow rounded-3 overflow-hidden">
+                        <div class="blog-image">
+                            <img src="Images/Blog/post-3.jpg" alt="image" class="img-fluid">
+                        </div>
+                        <div class="title">web design</div>
+                        <div class="blog-content mt-3 p-2 border-bottom">
+                            <a href="#">See more ideas about Travel</a>
+                            <p>
+                                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a
+                                pellentesque
+                                nec, egestas non nisi.
+                            </p>
+                        </div>
+                        <div class="blog-footer d-flex justify-content-between p-2 align-items-center">
+                            <div class="footer-img">
+                                <img src="Images/Testimonial/testimonial-2.jpg" alt="image" class="img-fluid rounded-circle"
+                                    style=" width: 40px;">
+                                <span>morgan freeman</span>
+                            </div>
+                            <div class="footer-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock"
+                                    viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                                </svg>
+                                10 min
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog Section -->
+    <!-- Start Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-blur">
+            <div class="container-md">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact-items bg-white p-3">
+                            <div class="row">
+                                <div class="col-md-6 ps-4">
+                                    <div class="contact-head">
+                                        <h5>send message us</h5>
+                                    </div>
+                                    <div class="contact-form mt-5">
+                                        <div class="row">
+                                            <form action="">
+                                                <input type="text" placeholder="your name">
+                                                <input type="email" placeholder="your email">
+                                                <input type="text" placeholder="your subject">
+                                                <textarea name="message" id="message cols=" 100" rows="4" placeholder="message"></textarea>
+                                            <div class="col-sm-12">
+                                                <button type="button" class="btn btn-primary rounded-pill w-auto">send message</button>
+                                            </div>
+                                            </form> 
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ps-4 ">
+                                    <div class="contact-head">
+                                        <h5>get in touch</h5>
+                                    </div>
+                                    <div class="contact-p mt-5">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid
+                                            at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?
+                                        </p>
+                                    </div>
+                                    <div class="contact-ul mt-4">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-3">
+                                                <i class="bi bi-geo-alt text-primary pe-1"></i>
+                                                <span>
+                                                    329 WASHINGTON ST BOSTON, MA 02108
+                                                </span>
+                                            </li>
+                                            <li class="mb-3">
+                                                <i class="bi bi-phone text-primary pe-1"></i>
+                                                <span>
+                                                    (617) 557-0089
+                                                </span>
+                                            </li>
+                                            <li class="mb-3">
+                                                <i class="bi bi-envelope text-primary pe-1"></i>
+                                                <span>
+                                                    contact@example.com
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="contact-socials">
+                                        <ul class="list-unstyled d-flex">
+                                            <li>
+                                                <span class="rounded-circle">
+                                                    <i class="bi bi-facebook"></i>
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="rounded-circle">
+                                                    <i class="bi bi-instagram"></i>
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="rounded-circle">
+                                                    <i class="bi bi-twitter"></i>
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="rounded-circle">
+                                                    <i class="bi bi-linkedin"></i>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- Start Footer Section-->
+    <footer class="footer-section text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-white">&copy;copyright <strong>DevFolio.</strong> All Rights Reserved</p>
+                    <div class="credits text-white">
+                        Designed by <a href="#" class="text-decoration-none text-white">BootstrapMade</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section-->
+    <!-- Script -->
+    <script src="typed.js"> </script>
+    <script>
+        var typed = new Typed('.typing', {
+            strings:
+                [
+                    "Designer",
+                    "Developer",
+                    "Freelancer",
+                    "Photographer"
+                ],
+            typeSpeed: 80,
+            backSpeed: 80,
+            loop: true,
+        }
+        );
+    </script>
+</body>
+</html>
